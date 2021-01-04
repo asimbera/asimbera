@@ -11,5 +11,5 @@ I'm a Full-Stack Developer currently studying at Central Calcutta Polytechnic an
 - **GNOME Dynamic Background** - CLI tool to download, manage and generate `Dynamic Backgrounds`  on GNOME desktop environment [WIP]
 
 ### Get in touch
-- Twitter : <https://twitter.com/asimbera>
+- Twitter : <https://twitter.com/its_asim_bera>
 - Personal Site : <https://asim.social>
