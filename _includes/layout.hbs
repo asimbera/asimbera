@@ -8,6 +8,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/styles/index.css">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <title>Asim's Blog</title>
+</head>
+
+<body>
+  {{>header}}
+  <main>
+    {{{content}}}
+  </main>
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
@@ -19,14 +27,6 @@
       });
     }
   </script>
-  <title>Asim's Blog</title>
-</head>
-
-<body>
-  {{>header}}
-  <main>
-    {{{content}}}
-  </main>
   <script src="/assets/scripts/index.js"></script>
 </body>
 
