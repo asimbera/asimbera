@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: assets/images
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+      - { label: 'Cover Image', name: 'cover_image', widget: 'string' }
+      - { label: 'Publish Date', name: 'publish_date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
