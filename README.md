@@ -31,7 +31,7 @@ I'm a Full-Stack Developer currently studying at Central Calcutta Polytechnic an
   <img  alt="Asim's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
 </a>
 &nbsp&nbsp&nbsp
-<a mailto="asimbera@outlook.in">
+<a href="mailto: asimbera@outlook.in">
   <img  alt="Asim's Mail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />
 </a>
 
