@@ -9,8 +9,8 @@ I'm a Full-Stack Developer currently studying at Central Calcutta Polytechnic an
 
 
 #### Upcoming Projects
-- **Musiq** - An open-source music player for android [WIP]
-- **Pokket** - Personal expense tracker for android [WIP]
+- [Musica](https://github.com/asimbera/musica) - An open-source music player for android with NO ads [WIP]
+- [Pokket](https://github.com/asimbera/pokket) - Personal expense tracker for android [WIP]
 - **GNOME Dynamic Background** - CLI tool to download, manage and generate `Dynamic Backgrounds`  on GNOME desktop environment [WIP]
 
 <div align="center">
@@ -23,8 +23,17 @@ I'm a Full-Stack Developer currently studying at Central Calcutta Polytechnic an
     </a>
 &nbsp&nbsp&nbsp
 <a align="center" href="https://asim.social/">
- <img alt="Asim's Personal Site" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/write-dot-as.svg" />
+<img alt="Asim's Personal Site" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/write-dot-as.svg" />
 
 </a>
+&nbsp&nbsp&nbsp
+<a href="https://github.com/asimbera">
+  <img  alt="Asim's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+</a>
+&nbsp&nbsp&nbsp
+<a href="asimbera@outlook.in">
+  <img  alt="Asim's Mail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />
+</a>
+
 <br />
 </p>
