@@ -6,11 +6,23 @@ I'm a Full-Stack Developer currently studying at Central Calcutta Polytechnic an
 
 - 😍️ **I love to:** ![Watch Anime](https://img.shields.io/badge/-Watch%20Anime-1a508b?style=for-the-badge&logo=anime) ![Listen to music](https://img.shields.io/badge/-Listen%20to%20music-black?style=for-the-badge&logo=music)
 
-#### Current Projects
+#### Personal Projects
 - [Musica](https://github.com/asimbera/musica) - An open-source music player for android with zero ads and multiple source support. [WIP]
-#### Upcoming Projects
+
+##### Upcoming
 - [Pokket](https://github.com/asimbera/pokket) - Personal expense tracker for android
 - **GNOME Dynamic Background** - CLI tool to download, manage and generate `Dynamic Backgrounds`  on GNOME desktop environment
+
+#### Challenges
+##### Frontend Mentor
+Frontend implemantion for various designs and form factors.\
+Technologies Used: `Pug JS`, `SCSS` \
+Check It Out: [Repo](https://github.com/asimbera/frontend-mentor-challenges) | [Live Site](https://stoic-knuth-be1598.netlify.app/)
+
+##### Project Euler
+Implementation of **Number Theory** and **Algorithm** problems. \
+Technologies Used: `Javascript`\
+Check It Out: [Repo](https://github.com/asimbera/project_euler)
 
 <div align="center">
     <h3 align="center">⬇️ Get in Touch ⬇️</h3>
