@@ -27,4 +27,4 @@ You can find all my post articles on [asimbera.github.io](https://asimbera.githu
 
 #### Reach Me
 
-[Twitter](https://twitter.com/asimbera_) | [Dribbble]() | [Anilist](https://anilist.co/asimbera) | [Email](mailto:asimbera@outlook.in)
+[Twitter](https://twitter.com/asimbera_) | [Dribbble]() | [Anilist](https://anilist.co/user/asimbera/) | [Email](mailto:asimbera@outlook.in)
