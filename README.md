@@ -1,8 +1,8 @@
-#### Konnichiwa :wave:
+### Konnichiwa :wave:
 
 ---
 
-Hi guys, I'm **Asim Bera**. I am a full-stack developer from Kolkata, India. I am currently working on [Storydeck]() app.
+Hi guys, I'm **Asim Bera**. I am a full-stack developer from Kolkata, India. I am currently working on [Storydeck](https://github.com/Team-Storydeck/storydeck) app.
 
 Reach me out if you have same intersts or want to work with me.
 
