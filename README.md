@@ -10,12 +10,11 @@ Reach me out if you have same intersts or want to work with me.
 
 `Some projects are on the way.`
 
-#### Skills & Hobbies
+#### Skills
 
 - **Languages**: `TypeScript` `Dart` `Go`
 - **Frameworks**: `React` `Flutter`
 - **Tools**: `Git` `Figma` `XD` `Inkscape` `Linux`
-- **Hobbies**: `Games` `Anime` `Manga` `Movies`
 
 #### Some Insights
 
