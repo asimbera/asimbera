@@ -2,7 +2,7 @@
 
 ---
 
-Hi guys, I'm **Asim Bera**. I am a full-stack developer from Kolkata, India. I am currently working on [Storydeck](https://github.com/Team-Storydeck/storydeck) app.
+Hi guys, I'm **Asim Bera**. I am a full-stack developer from Kolkata, India.<!--  I am currently working on [Storydeck](https://github.com/Team-Storydeck/storydeck) app. -->
 
 Reach me out if you have same intersts or want to work with me.
 
@@ -27,4 +27,4 @@ You can find all my post articles on [asimbera.github.io](https://asimbera.githu
 
 #### Reach Me
 
-[Twitter](https://twitter.com/asimbera_) | [Dribbble]() | [Anilist](https://anilist.co/user/asimbera/) | [Email](mailto:asimbera@outlook.in)
+[Twitter](https://twitter.com/asimbera_) | [Dribbble](https://dribbble.com/asimbera) | [Email](mailto:asimbera@outlook.in)
