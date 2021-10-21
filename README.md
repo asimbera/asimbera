@@ -26,7 +26,7 @@ Reach me out if you have same intersts or want to work with me.
 
 ### Insights
 
-![Asim's GitHub stats](https://github-readme-stats.vercel.app/api?username=asimbera&show_icons=true)
+![Asim's GitHub stats](https://github-readme-stats.vercel.app/api?username=asimbera&show_icons=true&theme=onedark)
 
 <!-- #### Tech Articles
 
