@@ -2,7 +2,7 @@
 
 ---
 
-Hi guys, I'm **Asim Bera**. I am a full-stack developer from Kolkata, India.<!--  I am currently working on [Storydeck](https://github.com/Team-Storydeck/storydeck) app. -->
+Hi guys, I'm **Asim Bera**. I am a full-stack developer from Kolkata, India.
 
 Reach me out if you have same intersts or want to work with me.
 
@@ -10,17 +10,27 @@ Reach me out if you have same intersts or want to work with me.
 
 #### Web Development
 
-- State Tourism Landing Page - [View Live](https://wbtourism.pages.dev/) | [Repo](https://github.com/asimbera/wbtourism.git)
-- Collage Landing Page - [View Live](https://ccpkolkata.pages.dev/) | [Repo](https://github.com/asimbera/ccpkolkata.git)
+##### State Tourism Landing Page
 
-#### Mobile Apps
+Technologies: `PugJS`, `Tailwind CSS`, `Parcel`
 
-- Sodium Authenticator - (work in progress)
-- Pokket Expense Tracker - (work in progress)
+[View Live](https://asim.is-a.dev/wbtourism/) | [Repo](https://github.com/asimbera/wbtourism.git)
+
+##### Collage Landing Page
+
+Technologies: `PugJS`, `Tailwind CSS`, `Parcel`
+
+[View Live](https://asim.is-a.dev/ccpkolkata/) | [Repo](https://github.com/asimbera/ccpkolkata.git)
+
+##### Space Tourism Landing Page
+
+Technologies: `React`, `Styled Components`, `Framer Motion`, `Vite`
+
+[View Live](https://space-tourism-prod.pages.dev/) | [Repo](https://github.com/asimbera/spacetourism.git)
 
 ### Skills
 
-- **Languages**: `TypeScript`, `Dart`, `Go`
+- **Languages**: `C++`, `Kotlin`, `TypeScript`, `Dart`, `Go`
 - **Frameworks**: `React`, `Flutter`
 - **Tools**: `Git`, `Figma`, `Adobe XD`, `Inkscape`, `Linux`
 
