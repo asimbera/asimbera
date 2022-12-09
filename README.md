@@ -30,7 +30,7 @@ Technologies: `React`, `Styled Components`, `Framer Motion`, `Vite`
 
 ### Skills
 
-- **Languages**: `C++`, `Kotlin`, `TypeScript`, `Dart`, `Go`
+- **Languages**: `C++`, `Kotlin`, `TypeScript`, `Dart`, `Go`, `Python`
 - **Frameworks**: `React`, `Flutter`
 - **Tools**: `Git`, `Figma`, `Adobe XD`, `Inkscape`, `Linux`
 
