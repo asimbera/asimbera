@@ -38,9 +38,9 @@ Technologies: `React`, `Styled Components`, `Framer Motion`, `Vite`
 
 ![Asim's GitHub stats](https://github-readme-stats.vercel.app/api?username=asimbera&show_icons=true&theme=onedark)
 
-<!-- #### Tech Articles
+### Tech Articles
 
-You can find all my post articles on [asimbera.github.io](https://asimbera.github.io). -->
+You can find all my blog posts on [asimbera.pages.dev](https://asimbera.pages.dev).
 
 ### Reach Me
 
