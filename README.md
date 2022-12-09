@@ -16,7 +16,7 @@ Technologies: `PugJS`, `Tailwind CSS`, `Parcel`
 
 [View Live](https://asim.is-a.dev/wbtourism/) | [Repo](https://github.com/asimbera/wbtourism.git)
 
-##### Collage Landing Page
+##### College Landing Page
 
 Technologies: `PugJS`, `Tailwind CSS`, `Parcel`
 
