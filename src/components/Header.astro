@@ -1,0 +1,17 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<header class='mb-4 space-y-1'>
+  <h2 class='text-2xl text-slate-900 dark:text-slate-300'>
+    {SITE_TITLE}
+  </h2>
+  <nav class='space-x-2'>
+    <HeaderLink href='/'>Home</HeaderLink>
+    <HeaderLink href='/blog'>Blog</HeaderLink>
+    <HeaderLink href='https://github.com/asimbera' target='_blank'>
+      GitHub
+    </HeaderLink>
+  </nav>
+</header>

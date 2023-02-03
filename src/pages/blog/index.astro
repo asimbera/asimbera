@@ -1,0 +1,66 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import { getCollection } from 'astro:content';
+import readingTime from 'reading-time';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      .title {
+        @apply text-xl font-semibold text-slate-900 dark:text-slate-200 dark:group-hover:text-blue-500 group-hover:text-blue-800 bg-gradient-to-r from-blue-700 to-purple-700 bg-[length:0px_2px] group-hover:bg-[length:100%_2px] bg-[0_100%] bg-no-repeat transition-all ease-in-out delay-150 duration-200;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section>
+        <ul class='grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-8'>
+          {
+            posts.map((post) => (
+              <li>
+                <a href={`/blog/${post.slug}/`}>
+                  <article class='flex flex-col space-y-1 group'>
+                    <img
+                      src={post.data.heroImage}
+                      alt={post.data.title}
+                      class='mb-2 h-48 object-cover rounded group-hover:ring-2 ring-offset-2 transition ease-in-out delay-150'
+                    />
+                    <h3>
+                      <span class='title'>{post.data.title}</span>
+                    </h3>
+                    <p class='text-sm text-slate-400'>
+                      {post.data.description}
+                    </p>
+                    <p class='text-xs font-mono text-slate-400'>
+                      <time datetime={post.data.pubDate.toISOString()}>
+                        {post.data.pubDate.toLocaleDateString('en-us', {
+                          year: 'numeric',
+                          month: 'short',
+                          day: 'numeric',
+                        })}
+                      </time>
+                      &#8212;
+                      {readingTime(post.body).text}
+                    </p>
+                  </article>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

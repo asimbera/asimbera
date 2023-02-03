@@ -1,0 +1,7 @@
+body {
+	@apply m-auto p-6 break-words max-w-3xl scroll-smooth dark:bg-gray-800
+}
+
+a {
+	@apply text-blue-700 dark:text-blue-500
+}

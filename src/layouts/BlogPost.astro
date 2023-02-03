@@ -1,0 +1,82 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+type Props = CollectionEntry<'blog'>['data'];
+
+const { title, description, pubDate, updatedDate, heroImage, tags } =
+  Astro.props;
+---
+
+<html lang='en'>
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+
+  <body>
+    <Header />
+    <main>
+      <article class='prose dark:prose-invert'>
+        <h1 class='text-4xl'>{title}</h1>
+        <p class='text-slate-400'>{description}</p>
+        {
+          heroImage && (
+            <img
+              class='h-48 sm:h-56 lg:h-72 w-full object-cover rounded'
+              src={heroImage}
+              alt={title}
+            />
+          )
+        }
+        {
+          pubDate && (
+            <div class='text-sm font-mono text-slate-400'>
+              Published on
+              <time datetime={pubDate.toISOString()}>
+                {pubDate.toLocaleDateString('en-us', {
+                  year: 'numeric',
+                  month: 'short',
+                  day: 'numeric',
+                })}
+              </time>
+            </div>
+          )
+        }
+        {
+          updatedDate && (
+            <div class='text-sm font-mono text-slate-400'>
+              Last updated on
+              <time datetime={updatedDate.toISOString()}>
+                {updatedDate.toLocaleDateString('en-us', {
+                  year: 'numeric',
+                  month: 'short',
+                  day: 'numeric',
+                })}
+              </time>
+            </div>
+          )
+        }
+        <hr />
+        <slot />
+        {
+          tags && (
+            <>
+              <br />
+              <p class='space-x-2 text-sm font-mono'>
+                Tags:
+                {tags.map((tag) => (
+                  <a class='text-slate-800 no-underline' href={`/tag/${tag}`}>
+                    {tag}
+                  </a>
+                ))}
+              </p>
+            </>
+          )
+        }
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
