@@ -11,6 +11,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^2.0.1",
     "@astrojs/mdx": "^0.16.0",
     "@astrojs/rss": "^2.1.0",
     "@astrojs/sitemap": "^1.0.1",
@@ -20,7 +21,9 @@
     "@fontsource/victor-mono": "^4.5.4",
     "@tailwindcss/typography": "^0.5.9",
     "astro": "^2.0.4",
+    "mermaid": "^10.0.2",
     "reading-time": "^1.5.0",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "unist-util-visit": "^4.1.2"
   }
 }

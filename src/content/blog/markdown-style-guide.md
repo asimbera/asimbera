@@ -1,8 +1,8 @@
 ---
-title: "Markdown Style Guide"
-description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
-pubDate: "Jul 01 2022"
-heroImage: "/placeholder-hero.jpg"
+title: 'Markdown Style Guide'
+description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
+pubDate: 'Jul 01 2022'
+heroImage: '/placeholder-hero.jpg'
 ---
 
 ## Headings
@@ -37,7 +37,7 @@ The blockquote element represents content that is quoted from another source, op
 
 #### Blockquote without attribution
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 > **Note** that you can use _Markdown syntax_ within a blockquote.
 
 #### Blockquote with attribution
@@ -68,13 +68,10 @@ The blockquote element represents content that is quoted from another source, op
 </html>
 ```
 
-```ts
-console.log('Hello World');
-if (1 === 1) {
-  return true;
-}
-const test = () => doNothing();
-
+```mermaid
+sequenceDiagram
+  A ->> B : Something ...
+  B ->> C : Nothing ...
 ```
 
 ## List Types

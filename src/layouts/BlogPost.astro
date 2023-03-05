@@ -78,5 +78,18 @@ const { title, description, pubDate, updatedDate, heroImage, tags } =
       </article>
     </main>
     <Footer />
+    <script>
+      const graphs = document.getElementsByClassName('mermaid');
+      if (graphs.length > 0) {
+        const { default: mermaid } = await import('mermaid');
+        mermaid.init({
+          theme: 'dark',
+          // TODO : Responsive theme
+          // theme: window.matchMedia('(prefers-color-scheme: dark)').matches
+          // ? 'dark'
+          // : 'default',
+        });
+      }
+    </script>
   </body>
 </html>
