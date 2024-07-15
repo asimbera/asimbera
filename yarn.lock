@@ -600,6 +600,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/space-grotesk@npm:^5.0.18":
+  version: 5.0.18
+  resolution: "@fontsource/space-grotesk@npm:5.0.18"
+  checksum: 76769dc055c0c901446c51a3ecf42c27de477c350a9c1121681e35060255b3c1aa2d2c8231b70596936928d21df4ac1098b3fe8b4719c4b60143a5085e77ff11
+  languageName: node
+  linkType: hard
+
 "@img/sharp-darwin-arm64@npm:0.33.4":
   version: 0.33.4
   resolution: "@img/sharp-darwin-arm64@npm:0.33.4"
@@ -1418,6 +1425,7 @@ __metadata:
     "@astrojs/mdx": latest
     "@astrojs/rss": latest
     "@astrojs/sitemap": latest
+    "@fontsource/space-grotesk": ^5.0.18
     astro: latest
   languageName: unknown
   linkType: soft
