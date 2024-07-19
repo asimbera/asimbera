@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://asimbera.pages.dev/sitemap-index.xml
