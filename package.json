@@ -13,7 +13,8 @@
     "@astrojs/mdx": "latest",
     "@astrojs/rss": "latest",
     "@astrojs/sitemap": "latest",
-    "@fontsource/space-grotesk": "^5.0.18",
+    "@fontsource/ibm-plex-mono": "^5.1.0",
+    "@fontsource/ibm-plex-sans": "^5.1.0",
     "astro": "latest"
   },
   "packageManager": "yarn@3.6.3"

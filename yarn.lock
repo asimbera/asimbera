@@ -600,10 +600,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/space-grotesk@npm:^5.0.18":
-  version: 5.0.18
-  resolution: "@fontsource/space-grotesk@npm:5.0.18"
-  checksum: 76769dc055c0c901446c51a3ecf42c27de477c350a9c1121681e35060255b3c1aa2d2c8231b70596936928d21df4ac1098b3fe8b4719c4b60143a5085e77ff11
+"@fontsource/ibm-plex-mono@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@fontsource/ibm-plex-mono@npm:5.1.0"
+  checksum: 1ebf843be32fdf859afee186cbf16f45f0a321ab267fcc0ec38ad9e6e2f71bd718b4ab3e20925530819dcd820e85a892e6168bcf7669cbedb9f913a3b298643f
+  languageName: node
+  linkType: hard
+
+"@fontsource/ibm-plex-sans@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@fontsource/ibm-plex-sans@npm:5.1.0"
+  checksum: b72f73f16e8e7635278a2c39de6779f5179c34ac776cbda773526c43130279eca259edea5778a8f4f4dd95742f6ca92a10f6aa160e48449d30978755cf4b1fab
   languageName: node
   linkType: hard
 
@@ -1425,7 +1432,8 @@ __metadata:
     "@astrojs/mdx": latest
     "@astrojs/rss": latest
     "@astrojs/sitemap": latest
-    "@fontsource/space-grotesk": ^5.0.18
+    "@fontsource/ibm-plex-mono": ^5.1.0
+    "@fontsource/ibm-plex-sans": ^5.1.0
     astro: latest
   languageName: unknown
   linkType: soft
