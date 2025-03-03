@@ -1,0 +1,43 @@
+---
+import { CollectionEntry } from 'astro:content';
+import Prose from '../components/Prose.astro';
+import Layout from './Layout.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+
+type Props = CollectionEntry<'blog'>['data'];
+const { title, description, pubDate, updatedDate, heroImage, tags } =
+  Astro.props;
+---
+
+<Layout>
+  <div class='mx-auto max-w-prose mb-4'>
+    <div class='container'>
+      <h1 class='text-3xl font-bold'>{title}</h1>
+      <div class='flex items-center gap-x-2 text-sm flex-wrap'>
+        <div>
+          <span class='dark:text-stone-400'>Published:</span>
+          <FormattedDate date={pubDate} />
+        </div>
+        {
+          tags && (
+            <div class='flex items-center gap-x-2'>
+              <span class='dark:text-stone-400'>Tagged:</span>
+              <span>
+                {
+                  tags.map((tag: string, idx: number) => (
+                    <span>{idx ? ', ' : ''}</span>
+                    <span>{tag}</span>
+                  ))
+                }
+              </span>
+            </div>
+            
+          )
+        }
+      </div>
+    </div>
+  </div>
+  <Prose>
+    <slot />
+  </Prose>
+</Layout>

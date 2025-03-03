@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+
+import Layout from '../layouts/Layout.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+
+const posts = (
+  await getCollection('blog', ({ data }) => {
+    return import.meta.env.PROD ? data.draft !== true : true;
+  })
+).sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
+---
+
+<Layout>
+  <div class='mx-auto max-w-prose'>
+    <div class='container'>
+      <h1 class='text-3xl font-semibold mb-4 border-b-2 border-teal-500 w-fit'>All Posts</h1>
+      {
+        posts.map((post) => (
+          <div class='mb-2'>
+            <a
+              href={`/blog/${post.slug}/`}
+              class='hover:text-blue-500 hover:border-b-2 border-blue-500'
+            >
+              <h4 class='text-xl'>{post.data.title}</h4>
+            </a>
+
+            <div class='flex items-center gap-x-2 text-xs flex-wrap'>
+              <div>
+                <span class='dark:text-stone-400'>Published:</span>
+                <FormattedDate date={post.data.pubDate} />
+              </div>
+              {post.data.tags && (
+                <div>
+                  {post.data.tags.map((tag: string, idx: number) => (
+                    <span>{idx ? ', ' : ''}</span>
+                    <span>{tag}</span>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</Layout>

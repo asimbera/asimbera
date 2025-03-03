@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --font-sans: 'IBM Plex Sans Variable', sans-serif;
+  --font-mono: 'JetBrains Mono Variable', monospace;
+}
+
+.expressive-code pre > code {
+  --ec-uiFontFml: 'JetBrains Mono Variable', monospace;
+}

@@ -1,0 +1,35 @@
+---
+import '@fontsource-variable/ibm-plex-sans';
+import '@fontsource-variable/jetbrains-mono';
+import HeaderLink from '../components/HeaderLink.astro';
+import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <link rel='sitemap' href='/sitemap-index.xml' />
+    <meta name='generator' content={Astro.generator} />
+    <title>Asim's Journal</title>
+  </head>
+  <body class='bg-white dark:bg-stone-800 dark:text-stone-100 p-4'>
+    <nav class='mx-auto max-w-prose mb-4'>
+      <div class='container'>
+        <div class='w-full flex items-center justify-between flex-wrap'>
+          <a href='/' class='dark:text-stone-300'>Asim's Journal</a>
+          <div class='flex items-center gap-x-4'>
+            <HeaderLink href='/'>Archive</HeaderLink>
+            <!-- <HeaderLink href='/contact'>Contact</HeaderLink> -->
+            <HeaderLink href='/about'>About</HeaderLink>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <slot />
+  </body>
+</html>
+
+<style></style>
