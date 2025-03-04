@@ -13,7 +13,7 @@ export default defineConfig({
   integrations: [
     sitemap(),
     expressiveCode({
-      themes: ['monokai'],
+      themes: ['one-dark-pro'],
       styleOverrides: {
         codeFontFamily: '"Iosevka", monospace',
       },
