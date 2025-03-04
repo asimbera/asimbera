@@ -14,6 +14,9 @@ export default defineConfig({
     sitemap(),
     expressiveCode({
       themes: ['monokai'],
+      styleOverrides: {
+        codeFontFamily: '"Iosevka", monospace',
+      },
     }),
   ],
   vite: {

@@ -361,10 +361,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource-variable/jetbrains-mono@npm:^5.2.5":
+"@fontsource/iosevka@npm:^5.2.5":
   version: 5.2.5
-  resolution: "@fontsource-variable/jetbrains-mono@npm:5.2.5"
-  checksum: 10c0/441ff2dcd0f598c6b7860bcc1b2f3abb2a964926f546883d62815b6b7880cb4fe05a2cb1c3fea59eaf0ff51c963c1977768ead6fffa8e51a48fb197144ab464a
+  resolution: "@fontsource/iosevka@npm:5.2.5"
+  checksum: 10c0/b2b48cb2323a1fb9b269957a456e2da9d6997289b958e5d98aebf4e9057689add669b8b9ad205019cee928434a849258d81f6cb2cd068d900e44af257974bb14
   languageName: node
   linkType: hard
 
@@ -3363,7 +3363,7 @@ __metadata:
   dependencies:
     "@astrojs/sitemap": "npm:^3.2.1"
     "@fontsource-variable/ibm-plex-sans": "npm:^5.2.5"
-    "@fontsource-variable/jetbrains-mono": "npm:^5.2.5"
+    "@fontsource/iosevka": "npm:^5.2.5"
     "@tailwindcss/typography": "npm:^0.5.16"
     "@tailwindcss/vite": "npm:^4.0.9"
     astro: "npm:^5.4.1"
